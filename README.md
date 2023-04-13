@@ -22,7 +22,7 @@ cd infocasas-property
 poetry install
 ```
 ## Ejecución
-1. Para ejecutar el script get_info_by_id.py utilizando Poetry, sigue estos pasos:
+1. Para ejecutar el script main.py utilizando Poetry, sigue estos pasos:
 
 2. Abre una terminal en el directorio del proyecto.
 
