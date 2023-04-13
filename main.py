@@ -51,4 +51,4 @@ if __name__ == '__main__':
         prompt_id = int(input("Enter the id of the property: "))
         get_info_by_id(prompt_id)
     except Exception as e:
-        print(f'Price not found for id: {id}. ')
+        print(f'Price not found for id: {prompt_id}. ')
