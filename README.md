@@ -22,15 +22,14 @@ cd infocasas-property
 poetry install
 ```
 ## Ejecución
-1. Para ejecutar el script main.py utilizando Poetry, sigue estos pasos:
+Para ejecutar el script main.py utilizando Poetry, sigue estos pasos:
 
-2. Abre una terminal en el directorio del proyecto.
+1. Abre una terminal en el directorio del proyecto.
 
-Ejecuta el siguiente comando:
+2. Ejecuta el siguiente comando, reemplazando `<property_id>` con el ID de la propiedad::
 ```bash
-poetry run python main.py
+poetry run python main.py <property_id>
 ```
-3. Ingresa el ID de la propiedad cuando se te solicite.
 
 ## Uso
-Después de ejecutar el script, se te pedirá que ingreses el ID de la propiedad. Ingresa un ID válido y presiona Enter. El script buscará información sobre la propiedad en Infocasas y mostrará el título, el precio y un enlace para obtener más información.
+Después de ejecutar el script con el ID de la propiedad como argumento, se mostrará información sobre la propiedad en Infocasas, incluyendo el título, el precio y un enlace para obtener más información.
