@@ -1,3 +1,5 @@
+import sys
+
 import requests
 
 
@@ -47,8 +49,8 @@ def get_info_by_id(id: int) -> dict:
 
 
 if __name__ == '__main__':
-    try:
-        prompt_id = int(input("Enter the id of the property: "))
-        get_info_by_id(prompt_id)
-    except Exception as e:
-        print(f'Price not found for id: {prompt_id}. ')
+    if len(sys.argv) != 2:
+        print("Usage: python main.py <property_id>")
+        sys.exit(1)
+    prompt_id = int(sys.argv[1])
+    get_info_by_id(prompt_id)
