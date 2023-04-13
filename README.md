@@ -11,11 +11,11 @@ Este proyecto permite obtener información sobre una propiedad en Infocasas util
 
 1. Clona este repositorio:
 ```bash
-git clone https://github.com/tu_usuario/infocasas-property-info.git
+git clone https://github.com/dianjmv/infocasas-property.git
 ```
 2. Ingresa al directorio del proyecto:
 ```bash
-cd infocasas-property-info
+cd infocasas-property
 ```
 3. Instala las dependencias del proyecto utilizando Poetry:
 ```bash
